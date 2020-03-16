@@ -1,7 +1,7 @@
 #!/bin/bash -x
 head=0
 tail=0
-count=0
+count1=0
 while true
 do
 	number=$((RANDOM%2))
@@ -20,7 +20,7 @@ then
 	echo "tail win"
 	break
 fi
-(( count++ ))
+(( count1++ ))
 done
 
 

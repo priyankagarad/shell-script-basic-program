@@ -1,5 +1,5 @@
 #!/bin/bash
-#diclare dictionary ,find the key,value and maximum occurance count and store result in dictionary
+
 declare -A Dictionary
 dice=1
 while [[ Dictionary[$dice] -ne 10 ]]

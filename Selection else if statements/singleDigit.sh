@@ -1,6 +1,5 @@
 #!/bin/bash -x
 read -p "enter a number" num
-$num
 
 if [ $num -eq 1 ]
 then
